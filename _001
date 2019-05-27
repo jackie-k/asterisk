@@ -1,0 +1,17 @@
+public class _001 {
+
+	public static void main(String[] args) {
+		
+		int i;//행을 표현
+		int j;//별을 표현
+		
+		for(i=0; i<5; i++) {	//행이 5개
+			for (j=0; j<=i; j++) {	//행마다 행번호와 같은 수의 별 출력
+				System.out.print("*");
+			}	//한 행에 해당하는 별을 출력하고
+			System.out.println();	//줄 바꿈
+		}
+
+	}
+
+}
