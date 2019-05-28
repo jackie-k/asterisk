@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class asterisk_002 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		int n = Integer.parseInt(scan.next());
+		
+		int i;
+		int j;
+		
+		for (i=0; i<n; i++) {
+			for (j=0; j<i+1; j++) {
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
+	}
+}
